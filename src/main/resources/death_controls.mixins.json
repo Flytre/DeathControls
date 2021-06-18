@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.flytre.death_controls.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["EntityAttributeModifierMixin", "PlayerEntityMixin", "ServerPlayerEntityMixin"],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

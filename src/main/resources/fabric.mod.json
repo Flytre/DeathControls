@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "death_controls",
+  "version": "${version}",
+  "name": "Death Controls",
+  "description": "Take power over death!",
+  "authors": ["Flytre"],
+  "contact": {
+    "website": "https://www.flytre.net"
+  },
+  "license": "MIT",
+  "icon": "assets/death_controls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["net.flytre.death_controls.client.DeathControlsClient"],
+    "main": ["net.flytre.death_controls.DeathControls"]
+  },
+  "mixins": [
+    "death_controls.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0",
+    "fabric": "*",
+    "minecraft": "1.17.*",
+    "flytre_lib": ">=0.2.11"
+  }
+}
